@@ -103090,14 +103090,15 @@ if(s!=null){r=s.gD9().a.a
 q=p.z.ga0m().gG(0)
 p.as=A.b([q>r?r:q,r],o)
 p.a_d()}},
-a_d(){var s,r,q,p,o=this,n=t.t
-o.at=A.b([0,0],n)
-for(s=o.z.gD9().a,s=new A.cQ(s,s.r,s.e),r=-2;s.u();){q=s.d.x
-r=r+q.w.length+q.x.length}s=o.gCZ()
-q=A.a1(s).i("aw<1>")
-p=new A.aw(new A.aw(s,new A.a7M(o),q),new A.a7N(),q.i("aw<C.E>")).gG(0)
-o.at=A.b([p>r?r:p,r],n)
-o.a_f()},
+a_d(){var s,r,q,p,o,n=this,m=t.t
+n.at=A.b([0,0],m)
+for(s=n.z.gD9().a,s=new A.cQ(s,s.r,s.e),r=0;s.u();){q=s.d.x
+r+=q.w.length
+if(!q.r&&!q.c&&q.d==null&&q.e==null&&q.a===0&&!q.b)r+=q.x.length}s=n.gCZ()
+p=A.a1(s).i("aw<1>")
+o=new A.aw(new A.aw(s,new A.a7M(n),p),new A.a7N(),p.i("aw<C.E>")).gG(0)
+n.at=A.b([o>r?r:o,r],m)
+n.a_f()},
 a_f(){var s=this,r=s.as,q=r[1],p=s.at,o=q+p[1]
 r=o!==0?(r[0]+p[0])/o:1
 s.Q=r
